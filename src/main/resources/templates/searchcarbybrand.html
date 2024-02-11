@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+	border-collapse: collapse;
+}
+</style>
+</head>
+
+<body bgcolor="#ff704d">
+	<form action="searchbybrand" method="get">
+		<div align="center">
+			<div>Choose Brand to find the available models</div>
+			<table border="1">
+				<tr>
+					<td>Brand:</td>
+					<td><select name="brand" id="brandid">
+							<option value="Hyundai">Hyundai</option>
+							<option value="Tata">Tata</option>
+							<option value="Maruthi Suzuki">Maruthi Suzuki</option>
+							<option value="Honda">Honda</option>
+					</select></td>
+				<tr>
+				<tr>
+					<td><input type="submit" name="Find Models"
+						value="Find Models"></td>
+					<td><input type="submit" name="Find Models" value="Back"></td>
+				<tr>
+			</table>
+			<a href="/" th:href="@{/}" class="btn btn-large btn-success"><span
+				class="highlight">Home</span> </a>
+		</div>
+	</form>
+</body>
+<h3>DILIP MEHTA</h4>
+</html>
